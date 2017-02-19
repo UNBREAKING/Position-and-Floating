@@ -1,0 +1,167 @@
+body{
+    height:2000px;
+    background-color: white;
+    padding: 200px;
+    font-family:'Myriad Pro' ,sans-serif;
+
+
+}
+@font-face {
+    font-family: 'PTSans';
+    font-style: normal;
+    font-weight: 400;
+    src:url("../fonts/PT_Sans-Web-Regular.ttf");
+
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular.ttf") format("truetype");
+
+}
+.container{
+   margin: auto;
+
+    width: 522px;
+}
+.container #first,#second,#third{
+    position: absolute;
+    height:750px;
+    border:1px solid black;
+    width:520px;
+}
+.container #first{
+    background-color: rgb(172,172,172) ;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.container #second{
+    background-color: rgb(204,204,204) ;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.container #third{
+    background-color: rgb(235,235,235) ;
+}
+
+#figure1,#figure2,#figure3 {
+    border:2px solid black;
+    width:110px;
+    height: 35px;
+    position: absolute;
+    top:40px;
+    border-bottom-right-radius:10px ;
+    border-top-right-radius: 10px;
+
+}
+#figure1{
+    background-color: rgb(0,174,239);
+    right: -14px;
+}
+#figure3{
+    background-color: rgb(246,142,86);
+    right: -82px;
+}
+#figure2{
+    background-color: rgb(57,181,74);
+    right: -50px;
+}
+#info{
+    border:2px solid black;
+    text-align: center;
+    font-size:16px;
+    background-color: rgb(251,175,93);
+    bottom: 0;
+    right:0;
+    height:70px;
+    width: 90px;
+    position: fixed;
+}
+
+#info span{
+    top:10px;
+    right: 10px;
+    position: absolute;
+
+}
+
+#info img{
+    margin-top:35px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+#jokes{
+    height: 190px;  width:460px;
+
+}
+#jokes img{
+    position: absolute;
+}
+h1{
+    font-weight:200;
+    margin-top: 10px;
+    font-size: 24px;
+
+}
+h3{
+    width: 458px;
+    height: 21px;
+    padding-top: 30px;
+    font-weight:300;
+    font-size: 18px;
+
+}
+
+footer{
+    padding:0 5px 0 5px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 500;
+    height: 70px;
+    width:450px;
+}
+#pic2{
+    margin-left:264px;
+}
+
+#pic3{
+    margin-top: 102px;
+}
+#pic4{
+    margin-left: 264px;
+    margin-top: 102px;
+}
+
+#left{
+    float: left;
+    margin: 0px 23px 15px 0px;
+}
+#right{
+
+    margin: 20px 0px 0px 7px;
+    float: right;
+}
+.page{
+    padding:30px;
+
+
+}
+p{
+
+    font-weight:400;
+    font-size: 12px;
+    margin-top:20px ;
+
+}
+.p1 {
+
+    margin: 0;
+    padding: 0 5px 0px 0px;
+
+
+}
