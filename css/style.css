@@ -94,13 +94,8 @@ body{
     margin-left: 5px;
     border-radius: 10px;
 }
-#jokes{
-    height: 190px;  width:460px;
 
-}
-#jokes img{
-    position: absolute;
-}
+
 h1{
     font-weight:200;
     margin-top: 10px;
@@ -116,8 +111,8 @@ h3{
 
 }
 
-footer{
-    padding:0 5px 0 5px;
+#footer{
+    padding: 0 5px 0 5px;
     margin-top: 30px;
     text-align: center;
     font-size: 9px;
@@ -125,18 +120,21 @@ footer{
     height: 70px;
     width:450px;
 }
-#pic2{
-    margin-left:264px;
+
+#pic1,#pic2,#pic3,#pic4{
+
+
+}
+#pic1,#pic3 {
+    float: left;
+}
+#pic2,#pic4{
+    float:right;
 }
 
-#pic3{
-    margin-top: 102px;
+#pic3,#pic4{
+    margin-top: 10px;
 }
-#pic4{
-    margin-left: 264px;
-    margin-top: 102px;
-}
-
 #left{
     float: left;
     margin: 0px 23px 15px 0px;
@@ -162,6 +160,9 @@ p{
 
     margin: 0;
     padding: 0 5px 0px 0px;
+}
 
-
+#jokes{
+    height: 190px;
+    width: 460px;
 }
